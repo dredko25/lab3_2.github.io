@@ -1,0 +1,30 @@
+.container{
+    max-width: 1000px;
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px auto;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin: 0%;
+}
+.item1{
+    background-color: blueviolet;
+    flex: 0 1 50%;
+}
+.item2{
+    background-color: turquoise;
+    flex: 0 1 50%;
+}
+.item3{
+    background-color: tomato;
+    flex: 0 1 100%;
+}
+.item4{
+    background-color: fuchsia;
+    flex: 0 1 100%;
+}
